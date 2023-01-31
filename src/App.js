@@ -1,11 +1,9 @@
 import React from 'react'
-import NewTask from './components/newTask';
-import MyTask from './components/Task';
+import Parent from './components/xiaoyan/propDefault';
 function App() {
   return (
     <>
-      <MyTask></MyTask>
-
+      <Parent></Parent>
     </>
   );
 }
